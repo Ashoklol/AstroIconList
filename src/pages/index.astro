@@ -1,0 +1,77 @@
+---
+import { Icon } from 'astro-icon/components';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>Astro</h1>
+			<hr>
+			
+			<div class="icontainer">
+				<a href="https://chs.org/">
+				<Icon name="career" width={100} height={100}> </Icon>
+				</a>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum cum unde enim amet repellendus expedita maiores quae nostrum error mollitia iusto, perferendis consequuntur rerum nam sunt atque ducimus nesciunt beatae libero! Vitae omnis itaque doloribus quasi repudiandae necessitatibus adipisci. Voluptatem laboriosam, architecto in cumque unde mollitia nulla quo autem soluta ipsum atque repellat vero iusto repudiandae odit ipsa, hic iste libero ea debitis harum? Omnis, voluptates. Aspernatur quis, eveniet similique delectus neque ipsum quibusdam earum, facilis consectetur sint possimus voluptas?</p>
+			</div>
+
+			<div class="icontainer">
+				<a href="https://codepen.com/">
+					<Icon name="documents" width={100} height={100}> </Icon>
+				</a>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis at repellat optio deleniti itaque provident, aspernatur praesentium aperiam cum, tempore excepturi ratione. Repellat distinctio, labore recusandae commodi minima aut. Magnam minima, nam odit accusantium, ipsum distinctio non natus mollitia a illum soluta voluptatem aut laudantium dolorum provident? Corrupti laudantium sit suscipit culpa quibusdam magni pariatur perferendis, eum fugit et, voluptates deserunt voluptatum impedit libero iusto est quia? Natus officia dignissimos repellat doloribus ipsa tempore dolores optio quis ea totam.</p>
+			</div>
+
+			<div class="icontainer">
+				<a href="https://soundtrap.com/">
+					<Icon name="ear" width={100} height={100}> </Icon>
+				</a>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quaerat deserunt dolor, unde labore voluptates, quisquam beatae delectus eius quia officia. Nulla debitis mollitia fuga voluptate enim quod itaque natus. Necessitatibus aliquam sed atque excepturi, voluptates exercitationem error aut labore quia. Amet veritatis nihil est, ea magni officia necessitatibus assumenda optio repellendus facere a earum animi sapiente odio distinctio doloremque eaque deleniti dignissimos nemo ex tenetur obcaecati omnis enim non! Impedit, amet adipisci veritatis ipsum nulla quo, cum eius ea natus tempore at nihil quibusdam.</p>
+			</div>
+
+			<div class="icontainer">
+				<a href="https://soundtrap.com/">
+					<Icon name="programming" width={100} height={100}> </Icon>
+				</a>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam sapiente doloremque, fugiat debitis, ullam eos maxime dolorum facilis optio quisquam temporibus cupiditate ea nemo! Accusamus ipsam odio facere fugit, sapiente illum iure deleniti quae aliquam repellendus in deserunt maiores voluptate assumenda nostrum numquam? Maiores labore nulla, eum officia laborum repudiandae blanditiis, placeat eos corrupti provident iure possimus incidunt, alias nisi commodi vel fugit? Maxime, molestias culpa! Temporibus veritatis nam beatae soluta recusandae nobis tempore! Dolore, dolorum. Suscipit nobis, blanditiis dolorem assumenda consequatur, error amet est corporis sit minima asperiores.</p>
+			</div>
+
+			<div class="icontainer">
+				<a href="https://soundtrap.com/">
+					<Icon name="trophy" width={100} height={100}> </Icon>
+				</a>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo optio ad, sed, incidunt consequatur ex velit enim minus a iure ipsa magnam. Quae, deleniti impedit. Ad a beatae totam est neque! Obcaecati commodi culpa a impedit soluta labore enim provident porro, accusantium suscipit repellendus? Incidunt aspernatur voluptatem voluptatibus ipsa eum, deserunt praesentium laudantium fugiat molestias itaque qui recusandae quae magnam excepturi ad corporis repellat! Labore modi nemo doloremque laudantium voluptates voluptate iste alias, blanditiis nam deserunt, id sint debitis dolor unde provident exercitationem expedita corporis. Dolore incidunt ad earum!</p>
+			</div>
+			
+		</div>
+	</body>
+</html>
+<style>
+	#wrapper{
+		max-width:1200px;
+		margin:auto;
+	}
+
+	h1{
+		text-align:center;
+	}
+	.icontainer{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-between;
+		align-items:top;
+		line-height: 1.7;
+		gap:2rem;
+	}
+
+	[data-icon="career"]{
+		color: black;
+	}
+</style>
